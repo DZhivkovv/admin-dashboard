@@ -9,26 +9,37 @@
 </head>
 <body>
     <div class="grid-container-page">
+
+        <!-- The header section of the page (searchbar, notifications, profile photo, buttons) -->
         <header class="container" id="header-container">
             <div class="upper-section">
+
+                <!-- Searchbar -->
                 <div id="searchbar-container">
                     <label for="searchbar">
                         <img src="images\search-icon.png" alt="" id="search-icon">
                     </label>
                     <input id="searchbar" type="text">            
                 </div>
+
+                <!-- Notifications and profile -->
                 <div id="notifications-profile-container">
                     <img src="images\notifications-icon.png" alt="" id="notifications-icon">
                     <img src="images\profile-photo.jpg" alt="" id="profile-photo">
                     <p>Your Name</p>
                 </div>
             </div>
+            
+            <!-- The second row of the heading section-->
             <div class="lower-section">
+
+                <!-- Greeting (Hi, there ....)-->
                 <div id="photo-greeting-container">
                     <img src="images\profile-photo.jpg" alt="" id="intropic">
                     <h2><span> Hi there, </span> <br> Your Name (@username)</h2>
                 </div>
 
+                <!-- Buttons -->
                 <div class="buttons-container">
                     <button id="new-button">New</button>
                     <button id="upload-button">Upload</button>
@@ -36,13 +47,20 @@
                 </div>
             </div>
         </header>
+
+
+        <!-- The sidebar of the page that contains the logo and the navigation-->
         <section class="container" id="sidebar-container">
+
+            <!-- Logo  -->
             <div class="dashboard-logo-container">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="36px" fill="white" height="36" viewBox="0 0 24 24"><path d="M19,5V7H15V5H19M9,5V11H5V5H9M19,13V19H15V13H19M9,17V19H5V17H9M21,3H13V9H21V3M11,3H3V13H11V3M21,11H13V21H21V11M11,15H3V21H11V15Z"/>
                     <path xmlns="http://www.w3.org/2000/svg" d="M19,5V7H15V5H19M9,5V11H5V5H9M19,13V19H15V13H19M9,17V19H5V17H9M21,3H13V9H21V3M11,3H3V13H11V3M21,11H13V21H21V11M11,15H3V21H11V15Z"/>
                 </svg>
                 <h1>Dashboard</h1>
             </div>
+
+            <!-- Navigation  -->
             <div class="navigation" id="navigation-upper">
                 <ul>
                     <li>
@@ -83,7 +101,9 @@
                     </li>
                 </ul>
             </div>
-            <div class="navigation" id="navigation-upper">
+
+            <!-- The second part of the navigation (last 3 links)  -->
+            <div class="navigation" id="navigation-lower">
                 <ul>
                     <li>
                         <svg style="width:24px;height:24px" viewBox="0 0 24 24">
@@ -107,10 +127,15 @@
             </div>
         </section>
 
+
+        <!-- The main container is split in two parts - left and right.  -->
         <section class="container" id="main-container">    
+
+            <!-- The left part contains the project section  -->
             <div class="main-section" id="main-left">
                 <h3>Your Projects</h3>
 
+                <!-- Projects  -->
                 <div class="project-container">
                     <div class="project-items" id="project-item1">
                         <h4>Super Cool Project</h4>
@@ -226,10 +251,13 @@
                     </div>
                 </div>
             </div>
+
             
+            <!-- The right part contains the announcements and the trending section  -->
             <div class="main-section" id="main-right">
                 <h3>Announcements</h3>
 
+                <!-- Announcements  -->
                 <div class="announcements-container">
                     <div class="announcement-items" id="announcement-item1">
                         <h4>Site Maintenance</h4>  
@@ -247,26 +275,27 @@
                     </div>
                 </div>
 
+                <!-- Trending  -->
+                <h3 id="header-trending">Trending</h3>
                 <div class="trending-container">
-                    <h3>Trending</h3>
                     <div class="trending-items" id="trending-item1">
                         <img src="images\trending-images-1.jpeg" alt="">
-                        <p>@tegan <br> World Peace Builder</p>
+                        <p><span>@tegan</span><br> World Peace Builder</p>
                     </div>
                     
                     <div class="trending-items" id="trending-item2">
                         <img src="images\trending-images-2.jpeg" alt="">
-                        <p>@morgan<br> Super Cool Project</p>
+                        <p><span>@morgan</span><br> Super Cool Project</p>
                     </div>
                     
                     <div class="trending-items" id="trending-item3">
                         <img src="images\trending-images-3.jpeg" alt="">
-                        <p>@tegan <br> Life Changing App</p>
+                        <p><span>@tegan</span><br> Life Changing App</p>
                     </div>
                     
                     <div class="trending-items" id="trending-item4">
                         <img src="images\trending-images-4.jpeg" alt="">
-                        <p>@tegan <br> No Traffic Maker</p>
+                        <p><span>@tegan</span><br> No Traffic Maker</p>
                     </div>     
                 </div>
             </div>
