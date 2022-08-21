@@ -1,6 +1,8 @@
  # Admin Dashboard
  This project was an assignment from The Odin project curriculum. All of the requirements were met.
- 
+
+## [Live Demo](https://dzhivkovv.github.io/admin-dashboard/)
+
  ## Requirements:
  * The dashboard should have a header, a sidebar and a main section.
  * The layout of the page should be made using grid.
@@ -12,11 +14,10 @@
 
 ## Screenshots
 The dashboard is mobile-friendly. Here is how the page looks on different devices:
- Desktop:
  ![The dashboard on dekstop](images/forREADME/Desktop.png?raw=true "Screenshot-desktop")
-Middle-sized:
+
  ![The dashboard on middle-sized devices](images/forREADME/Middle-sized-devices.png?raw=true "Screenshot-middle-sized")
-Mobile devices:
+
  ![The dashboard on mobile devices](images/forREADME/Mobile.png?raw=true "Screenshot-mobile")
  
 ### Features i want to add in the future:
