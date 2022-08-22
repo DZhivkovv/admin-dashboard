@@ -6,7 +6,7 @@
  ## Requirements:
  * The dashboard should have a header, a sidebar and a main section.
  * The layout of the page should be made using grid.
- * The items within every section should be aligned grid.
+ * The items within every section should be aligned using grid.
 
 ### Technologies used:
  * HTML
